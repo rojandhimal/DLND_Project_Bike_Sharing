@@ -9,7 +9,7 @@ This Bike-Sharing-Dataset has the number of riders for each hour of each day fro
 
 Below is a plot showing the number of bike riders over the first 10 days or so in the data set. (Some days don't have exactly 24 entries in the data set, so it's not exactly 10 days.) You can see the hourly rentals here. This data is pretty complicated! The weekends have lower over all ridership and there are spikes when people are biking to and from work during the week. Looking at the data above, we also have information about temperature, humidity, and windspeed, all of these likely affecting the number of riders. You'll be trying to capture all this with your model.
 
-![dataset](./assets/dataset.png)
+![dataset](./assets/cnt.png)
 
 ### Prerequisites
 
@@ -70,13 +70,13 @@ Progress: 100.0% ... Training loss: 0.055 ... Validation loss: 0.139
 ```
 See the visual results over iteration:
 
-![training results](./assets/result_training.png)
+![training results](./assets/train.PNG)
 
 ## Checkout the prediction results
 
 I use the test data to show how well the neural network is modeling the data.
 
-![training results](./assets/result_prediction.png)
+![training results](./assets/pred.PNG)
 
 ## Improvements
 
